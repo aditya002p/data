@@ -20,10 +20,6 @@ try {
 }
 
 // Routes
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
 app.get("/data", (req, res) => {
   res.json(jsonData);
 });
